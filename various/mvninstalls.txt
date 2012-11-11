@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=crittercism_v3_0_3_sdkonly.jar -DgroupId=crittercism -DartifactId=crittercism -Dversion=3.0.3 -Dpackaging=jar
