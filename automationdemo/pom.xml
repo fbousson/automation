@@ -17,7 +17,7 @@
     <properties>
         <platform.version> 2.3.3
             </platform.version>
-            <sign.keystore>/Users/fbousson/DEV/projects/automated/automationdemo/ordinamobile.keystore</sign.keystore>
+            <sign.keystore>${basedir}/../ordinamobile.keystore</sign.keystore>
             <sign.alias>ordinamobile</sign.alias>
             <sign.storepass>ordina123</sign.storepass>
             <sign.keypass>ordina123</sign.keypass>
