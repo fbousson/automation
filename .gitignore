@@ -51,3 +51,7 @@ automationdemo/automationdemo/target/automationdemo-1.0-SNAPSHOT.jar
 automationdemo/automationdemo/target/generated-sources/r/be/ordina/mobile/Manifest.java
 automationdemo/automationdemo/target/generated-sources/r/be/ordina/mobile/R.java
 automationdemo/automationdemo/target/maven-archiver/pom.properties
+automationdemo/automationdemo/.externalToolBuilders/Maven_Ant_Builder.launch
+automationdemo/automationdemo/maven-eclipse.xml
+automationdemo/automationdemo/target/classes/AndroidManifest.xml
+automationdemo/automationdemo/target/classes/Users/fbousson/DEV/projects/automated/github/automation/automationdemo/automationdemo/target/filtered-manifest/AndroidManifest.xml
