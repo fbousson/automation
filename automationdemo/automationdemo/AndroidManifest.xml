@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="be.ordina.mobile" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
+    package="be.ordina.mobile"
+    android:versionCode="7"
+   
+    android:versionName="1.0" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="8" />
 
-  <application android:icon="@drawable/icon" android:label="@string/app_name">
-      <!-- Start of Crittercism.com Code -->
-      <activity android:name="com.crittercism.NotificationActivity"/>
-      <!-- End of Crittercism.com Code -->
-    <activity android:name=".HelloAndroidActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
-  </application>
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
 
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
 
+        <!-- Start of Crittercism.com Code -->
+        <activity android:name="com.crittercism.NotificationActivity" />
+        <!-- End of Crittercism.com Code -->
+        <activity android:name=".HelloAndroidActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>
-
