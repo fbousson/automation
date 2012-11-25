@@ -9,6 +9,14 @@
     <packaging>pom</packaging>
     <name>automationdemo - Parent</name>
 
+
+ <scm>
+	<connection>scm:git:git@github.com/fbousson/automation.git</connection>
+	<url>scm:git:git@github.com/fbousson/automation.git</url>
+	<developerConnection>scm:git:git@github.com/fbousson/automation.git</developerConnection>
+	  <tag>master</tag>
+  </scm>
+
     <modules>
         <module>automationdemo</module>
        <!-- <module>automationdemo-it</module> -->
