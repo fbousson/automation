@@ -14,7 +14,7 @@
 	<connection>scm:git:git@github.com/fbousson/automation.git</connection>
 	<url>scm:git:git@github.com/fbousson/automation.git</url>
 	<developerConnection>scm:git:git@github.com/fbousson/automation.git</developerConnection>
-	  <tag>master</tag>
+	<tag>HEAD</tag>
   </scm>
 
     <modules>
