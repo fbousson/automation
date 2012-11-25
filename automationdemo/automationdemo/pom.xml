@@ -32,7 +32,7 @@
 	</dependencies>
 
 	<build>
-	    <filters></filters>
+		<filters></filters>
 		<resources>
 			<resource>
 				<!-- ${basedir}/ -->
@@ -110,10 +110,11 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>buildnumber-maven-plugin</artifactId>
 				<configuration>
-					<format>{0,date,yyMMddHH}</format>
+					<format>{0,date,yyMMddHHMMSS}</format>
+<!-- 					<format>{0,date,yyyy-MM-dd HH:mm:ss}</format> -->
 					<doCheck>false</doCheck>
 					<doUpdate>false</doUpdate>
-<!-- 					 <revisionOnScmFailure>true</revisionOnScmFailure> -->
+					<!-- <revisionOnScmFailure>true</revisionOnScmFailure> -->
 					<items>
 						<item>timestamp</item>
 					</items>
